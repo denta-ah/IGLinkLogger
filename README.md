@@ -90,7 +90,7 @@ Tanggal dibaca dari atribut `datetime` pada elemen tanggal postingan (paling aku
 1. Pasang ekstensi **Tampermonkey** dari Chrome Web Store.
 2. Pastikan Tampermonkey boleh menjalankan userscript: buka `chrome://extensions`, klik **Details** pada Tampermonkey, lalu aktifkan **Allow User Scripts** (pada versi Chrome tertentu bernama *Developer mode* di pojok kanan atas halaman ekstensi).
 3. Klik ikon Tampermonkey, pilih **Create a new script**.
-4. Hapus seluruh isi editor, lalu **tempel** seluruh isi file [`ig_link_logger.user.js`](ig_link_logger.user.js).
+4. Hapus seluruh isi editor, lalu **tempel** seluruh isi file [`_link_logger.user.js`](Code/ig_link_logger.user.js).
 5. Simpan dengan **Ctrl+S**.
 6. Buka (atau **reload**) halaman Instagram. Panel **IG Link Logger** akan muncul di kiri bawah layar.
 
@@ -99,7 +99,7 @@ Tanggal dibaca dari atribut `datetime` pada elemen tanggal postingan (paling aku
 Setelah file diunggah ke repositori Anda, buka versi *raw*-nya di browser. Tampermonkey akan menawarkan instalasi otomatis:
 
 ```
-https://raw.githubusercontent.com/<denta-ah>/<IGLinkLogger>/main/Code/ig_link_logger.user.js
+https://raw.githubusercontent.com/denta-ah/IGLinkLogger/main/Code/ig_link_logger.user.js
 ```
 
 
